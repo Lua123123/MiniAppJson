@@ -1,0 +1,27 @@
+{
+	"id": "1234", 
+	"version": "1.0.0",
+	"compatible_versions": {
+		"min": "3.0.0",
+		"max": "4.0.0"
+	},
+
+	"title": "test",
+	"description": "Sample test",
+	"icon_url": "https://fptplay.vn/images/logo-2.png",
+
+	"scope": {
+		"megaapp": {
+			"methods": [
+				"getUserInfo",
+				"show",
+				"hide",
+				"destroy"
+			],	
+			"events": [
+				"router.access"
+			],
+			"source_url": "https://smarttv-internal2-v3.fptplay.net/plugin/sample/index.html"
+		}
+	}
+}
